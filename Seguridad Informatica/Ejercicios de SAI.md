@@ -20,3 +20,5 @@ Sería el SAI 5SC1000IR
 - Revise en la documentación qué baterías incorpora y haga una estimación de su
 autonomía sabiendo que los switches operan a unos 15W y el servidor a 75W.
 t= 9 * (2 * 12)= 216/150 = 1,44 * 0.8 * 60= 69m
+
+aa

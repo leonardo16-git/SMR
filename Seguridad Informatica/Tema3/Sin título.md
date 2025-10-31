@@ -13,12 +13,22 @@ mindmap-plugin: basic
 	- Cifrado de datos
 		- Fundamentos teóricos
 	- Eliminación de datos
+		- Tener en cuenta
+			- Borrado de archivos
+			- Cifraf los datos
+		- Eliminar realmente los datos del disco
+			- Destruirlo físicamente
+			- Técnicas de borrado efectivo de los datos
 - Rendimiento
 - Integridad
 - Accesibilidad
 - Disponibilidad
 
 ## Políticas de almacenamiento
+- Análisis exhaustivo de los datos
+- Determinación de la estrategia de almacenamiento
+- Gestión de los dispositivos de almacenamiento
+- Definición de la política de copias de respaldo
 
 ## Medios de almacenamiento
 - Tipos
@@ -52,6 +62,29 @@ mindmap-plugin: basic
 		- Contramedida activa
 			- Mantenimiento red eléctrica
 			- SAI
+			- Jaurnaling
+			- Actualización del software
+		- Contramedida pasiva
+			- Copia de seguridad
 	- Malware
+		- Contramedida activa
+			- Software de detección
+		- Contramedida pasiva
+			- Copia de seguridad
 	- Accidente
+		- Contramedida activa
+			- Redundancia de servidores
+			- Mantenimiento adecuado
+		- Contramedida pasiva
+			- Copia de seguridad
 	- Desastre natural
+		- Contramedida activa
+			- Ubicación adecuada
+			- Redundancia de servidores
+		- Contramedida pasiva
+			- Copia de seguridad
+- Monitorización de fallos
+- Restauración
+	- La recuperación propiamente dicha de la información
+	original sin recurrir a una copia
+	- La restauración de la información desde una copia

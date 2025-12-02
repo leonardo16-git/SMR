@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    <style>
+        table{
+            border: black 1px solid;
+            border-collapse:collapse ;
+            background-image: url("https://static.posters.cz/image/1300/127936.jpg"); background-repeat: no-repeat
+        }
+        th{
+            border: rgba(61, 245, 252, 0.822) 1px solid;
+        }
+        td{
+            border: rgb(186, 111, 230) 2px solid;
+            
+        }
+        input.nm:valid{
+            background-color: rgb(111, 197, 111);
+        }
+        input.nm:invalid{
+            background-color: rgb(224, 147, 147);
+        }
+        
+            
+    </style>
+        <meta charset="UTF8">
+        <title> Apuntes </title>
+        <meta name="Leonardo" content="JJR Mortin">
+        <meta name="Keywords" content="html,CSS,js">
+        <meta http-equiv="refresh" content="60">
+    </head>
+
+    <body style="background-color: rgb(250, 228, 200,0.7);">
+        <header>   
+            <p> Mi página para los apuntes </p>
+
+        </header>
+
+        <nav>   
+            <ul>
+                <li>  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.twitch.tv/illojuan%3Flang%3Des&ved=2ahUKEwjNj-2EjYCQAxX7K_sDHTE6D9MQFnoECAoQAQ&usg=AOvVaw3sqCdcD9c_KIfST4ik_a3Y" target="_blank">Enlace</a> </li>
+                <li>  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hazbinhotel.fandom.com/es/wiki/Lucifer_Morningstar&ved=2ahUKEwjEioilkYCQAxXDTaQEHU_9NkUQFnoECCUQAQ&usg=AOvVaw3dq8vrF9TG1EmFF2O88SYU" target="_blank">Enlace</a> </li>
+
+            </ul>
+
+        </nav>
+
+        <article> 
+            <header> <h1> Apuntes </h1></header>  
+            <section> <h4> apuntes de como crear una web </h4></section>
+            <p> Esta página web es para apuntar todos mis apuntes sobre como crear webs </p>
+        </article>
+        
+        <section>
+            <h2>Como hacer una pagina webs</h2>
+            <p>"Mis apuntes"</p></section>
+        </section>
+
+        <aside>   
+            <h1 style="text-align: right;"> Cosas apartes de los apuntes </h1>
+            <p style="text-align: right;"> Que es el https </p>
+
+        </aside>
+
+        <dialog open closedby="any"> 
+            <p>Gracias por visitar mi página!</p>
+            <form  method="dialog"> 
+             <button> Aceptar </button>
+            </form>
+        </dialog>  
+
+        <footer>  
+            <p style="text-align: right;bottom: auto;"> Hecho por Leonardo </p>
+
+        </footer>
+
+        <table>
+            <tr>
+                <th> Nombre </th>
+                <th> Apellido </th>
+                <th> Edad </th>
+                <th> Color fav </th>
+            </tr>
+             <tr>
+                <td rowspan="3"> Leonardo </td>
+                <td> González </td>
+                <td> 17 </td>
+                <td> Azul </td>
+            <tr>
+                <td> Alejandro </td>
+                <td> Garcia </td>
+                <td> 19 </td>
+                <td> Rojo </td>
+            </tr>
+             <tr>
+                <td> Mar </td>
+                <td> Fernandez </td>
+                <td> 17 </td>
+                <td> Morado </td>
+            </tr>           
+             <tr>
+                <td> Pablito </td>
+                <td> González </td>
+                <td> 18 </td>
+                <td> Verde </td>
+            </tr>           
+        </table>
+
+        <form>
+            <fieldset style="background-color: rgb(135, 222, 218);">
+                <legend> Datos personales </legend>
+                    <label for="nombre"> Nombre: </label><br>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Escriba aquí su nombre"><br>
+
+                    <label for="Edad"> Edad: </label><br>
+                    <input type="number" id="Edad" name="Edad" required placeholder="Escriba aquí su edad"><br>
+
+                    <input type="radio" id="Hombre" name="Genero" value="Hombre">
+                    <label for="Hombre"> Hombre </label> <br>
+                    <input type="radio" id="Mujer" name="Genero" value="Mujer">
+                    <label for="Mujer"> Mujer </label> <br>
+                    <input type="radio" id="Otro" name="Genero" value="Otro">
+                    <label for="Otro"> Otro </label> <br>
+
+                    <label for="dia"> Cumpleaños: </label> <br>
+                    <input type="date" id="dia" name="dia"> <br>
+
+                    <label for="provincia"> Donde vives: </label> <br>
+                    <select name="provincias" id="provincia">
+                        <option value="">Elija una provincia</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="Cádiz"> Cádiz </option> 
+                        <option value="Córdoba"> Córdoba </option>
+                        <option value="Granada"> Granada </option>
+                        <option value="Málaga"> Málaga </option>
+                        <option value="Almería"> Almería </option>
+                        <option value="Huelva"> Huelva </option>
+                        <option value="Jaén"> Jaén </option>
+                    </select> <br>
+            </fieldset>
+            
+            <fieldset style="background-color: rgb(243, 243, 243);">
+                <legend> Crear cuenta </legend>
+
+                    <label for="email">Pon tu email:</label> <br>
+                    <input type="email" id="email" value="email" required placeholder="Escriba aquí su email"> <br>
+
+                    <label for="Contraseña">Contraseña:</label> <br>
+                    <input type="password" id="Contraseña" name="Contraseña" required placeholder="Escriba una contraseña" pattern="[0,9]{6}" class="nm"> <br>
+
+                    <label for="foto"> Foto de perfil: </label> <br>
+                    <input type="file" id="foto" name="foto"> <br>
+
+                    <label for="color"> Elige el color de tu fondo de perfil: </label> <br>
+                    <input type="color" id="color" name="color"> <br>
+            </fieldset>
+
+            <fieldset style="background-color: rgb(252, 180, 240);">
+                <legend> Otras opciones </legend>
+
+                    <label for="buscador"> Buscador: </label> <br>
+                    <input type="search" id="buscador" name="buscador"> <br>
+        
+                    <label for="opinion">Di tu opinion:</label> <br>
+                    <textarea id="opinion" name="opinion" rows="5" cols="33"></textarea><br>
+
+                    <label for="Otros"> Aceptar condiciones </label>           
+                    <input type="checkbox" id="Otros" name="Otras cosas" value="Otros"> <br>
+
+                    <label for="resetear"> Resetear cuestionario: </label>
+                    <input type="reset" id="resetear" name="resetear"> <br>
+            </fieldset>            
+
+            <input type="submit" name="submit" valor="submit"> <br>
+        </form>
+
+        <audio controls>
+
+            <source src="POV.mp3" type="audio/mp3">
+
+        </audio> <br>
+
+        <video width="320" controls autoplay loop>
+        
+            <source src="enamoraste.mp4" type="video/mp4">
+    
+        </video>
+
+        <table>
+            <tr>
+                <th rowspan="6">Horario</th>
+            </tr>
+            <tr>
+                <th> lunes </th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                </tr>
+            <tr>
+                <td>Sistemas</td>
+                <td>Web</td>
+                <td>Sistemas</td>
+                <td>Red</td>
+                <td>Seguridad</td>
+            </tr>
+            <tr>
+                <td>Sistemas</td>
+                <td>Web</td>
+                <td>Sistemas</td>
+                <td>Red</td>
+                <td>Seguridad</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center;">Recreo</td>
+            </tr>
+            <tr>
+                <td>Red</td>
+                <td>Seguridad</td>
+                <td>Web</td>
+                <td>IPE</td>
+                <td>Ingles</td>
+            </tr>
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>

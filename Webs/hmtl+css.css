@@ -1,0 +1,114 @@
+body{ /*selector*/
+    background-color: rgb(2, 14, 182,0.6);   /*declaracion*/
+    /*Propiedad*/     /*valor*/
+
+    /*margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 10px;*/
+    /*margin: 100px, 100px, 20px, 10px - tambien se puede poner así*/
+    margin: auto;
+    
+}
+
+h1{
+    color: aliceblue; 
+    text-align: center;
+    background-color: rgb(172, 255, 161);
+
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+p.intro{
+    font-size: 16px;
+    color: rgb(77, 158, 10);
+    border: solid red;
+    outline: solid greenyellow;
+}
+
+p.lol{
+    border: 10px solid rgb(59, 59, 255); 
+    outline: 5px solid rgb(255, 54, 54); 
+    outline-offset: -5px; /* Mueve el contorno hacia dentro */
+}
+
+p.ro{
+    position: relative; right: 20px; /*posiciona un elemento con respecto a su posición original dentro del flujo normal del documento*/
+}
+
+p.leo{
+    position: static; left: 20px; /*hace que los elementos se posicionen según el flujo normal del documento, que es su comportamiento por defecto*/
+}
+
+p.go{
+    position: fixed; bottom: 0; right: 0; /*hace que un elemento se posicione en relación con la ventana del navegador, manteniéndose en la misma ubicación aunque el usuario desplace la página*/
+}
+
+p.spi{
+    position: absolute; /*Elimina un elemento del flujo normal del documento y lo posiciona con respecto a su ancestro posicionado más cercano*/
+}
+
+div.pri{
+    position: relative;
+    border: solid brown 1px;
+}
+
+div.primm{
+    position: relative;
+    border: solid brown 1px;
+    background-color: blueviolet;
+    width:100%;
+    height:600px;
+}
+div.se{
+    position: absolute;
+    border: solid azure 1px;
+    left:50px;
+    bottom:0;
+}
+
+div.sticky{
+    position: sticky;
+    top: 0;
+}
+
+/*1px-thin
+3px-medium
+5px-thick*/
+
+p.txt{
+    margin: inherit;
+    padding: 10px ;
+}
+
+
+
+#expli{
+    background-color: aliceblue;
+    border-style:  solid dotted dashed;
+    border-width: 10px 5px;
+    border-color: rgb(248, 214, 169) cadetblue;
+    border-radius: 20px;
+    background-image: url(rooo.jfif), url(roble.jfif); background-repeat: no-repeat; background-position: top 20px right 20px, left center;
+    width: 100%;
+    height: 500px;
+    margin: 500px;
+    background-attachment: fixed;
+    outline: solid rgb(157, 145, 201)  ;
+}
+
+*{  }/*afecta a todo lo de la página wed*/
+
+div>p { } /*de padre a hijo*/
+
+u+b {  }   /*son como hermanos, si pasa uno pasa el otro*/
+
+h2~p {}  
+
+a:link {}   /*Seudoclases*/
+
+td[colspan]{}  /* los corchetes se utiliza para detenerminar el atributo que esta dentro de la etiqueta */
+

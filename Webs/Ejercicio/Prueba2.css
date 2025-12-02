@@ -1,0 +1,45 @@
+div.prim{
+    background-color: rgb(39, 109, 86);
+    border: solid 10px red;
+    margin: 10px;
+    position: static;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset.fiel{
+    background-color: lightpink;
+    border: 2px solid blueviolet ;
+}
+
+img.ro{
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+p.WE{
+    position: sticky;
+    background-image: url(roble.jfif);
+}
+
+p.A{
+    position: fixed;
+}
+th{
+    border: 2px solid blueviolet;
+}
+
+td{
+    border: 2px solid rgb(120, 182, 190);
+}
+
+footer{
+    bottom: 0;
+    right: 1%;
+    position: fixed;
+}
+
+a.link:hover{
+    background-color: rgb(255, 0, 170);
+
+}

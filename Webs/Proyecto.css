@@ -1,0 +1,87 @@
+body {
+      margin: 0;   /* elimina márgenes por defecto */
+      height: 100vh;               /* ocupa toda la altura de la ventana */
+      background-image: url('HazbinHotel.jpg');       /* ruta de mi imagen */
+      background-size: cover;              /* ajusta la imagen para cubrir todo */
+      background-position: center;            /* centra la imagen */
+      background-repeat: no-repeat;               /* evita que se repita */
+}
+
+ 
+
+div.div2 {
+      position: static;          /* posición absoluta respecto a div1 */
+      top: 20%;                    /* 20% desde la parte superior de div1 */
+      left: 30%;                   /* 30% desde la parte izquierda de div1 */
+      width: 200px;
+      height: 200px;
+      background-color: rgba(255, 0, 0, 0.5); /* rojo semitransparente */
+      border: 2px solid black;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #c43037;
+    position: fixed;
+    right: 0;
+    top: 15%;
+}
+
+li a{
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    border: 1.7px solid rgb(26, 6, 6);
+}
+
+li a:hover{
+    background-color: rgb(233, 215, 215);
+    color: rgb(126, 36, 36);
+}
+
+a:link,a:visited {
+    color: rgb(248, 246, 246);
+    text-align: center;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(fondo5.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 2px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid rgb(133, 49, 49);   
+}
+
+h1{
+    color: rgb(230, 201, 201);
+    text-shadow: 2px 2px 4px rgb(78, 16, 16);
+}
+
+div.div2{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 320px;
+    height: 180px;
+    left: 1%;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+    border: 3px solid rgb(133, 49, 49);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+p.pie{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    color: rgb(255, 186, 186);
+}

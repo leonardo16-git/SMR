@@ -1,0 +1,27 @@
+div.div1{
+    border: solid 3px black;
+    width: 1850px;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+}
+
+div.div2{
+    background-color: rgb(96, 199, 96);
+    width: 300px;
+    height: 300px;
+    left: 40%;
+    top: 3%;
+    position: absolute;
+    z-index: 2;
+}
+
+div.div3{
+    background-color: rgb(137, 138, 137);
+    width: 250px;
+    height: 200px;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    z-index: 0;
+}

@@ -1,14 +1,10 @@
-
-
 body{
-      margin: 0;   /* elimina márgenes por defecto */
-      height: 100vh;               /* ocupa toda la altura de la ventana */
-      background-image: url('HazbinHotel.jpg');       /* ruta de mi imagen */
-      background-size: cover;              /* ajusta la imagen para cubrir todo */
-      background-position: center;            /* centra la imagen */
+        margin: 0;   /* elimina márgenes por defecto */
+        height: 100vh;               /* ocupa toda la altura de la ventana */
+        background-image: url('Infierno.jpg');       /* ruta de mi imagen */
+        background-size: cover;              /* ajusta la imagen para cubrir todo */
+        background-position: center;            /* centra la imagen */
 }
-
-
 
 ul {
     list-style-type: none;   /* Quita los puntos o viñetas de la lista */
@@ -61,76 +57,16 @@ li.lis:hover ul.lista {
     display: block;          /* Cuando pasas el cursor por el <li class="lis">, el submenú aparece */
 }
 
-
 header{
-    background-image: url(fondo5.jpg);
+    background-color: rgba(150, 55, 55, 0.486);
     background-size: cover; 
     background-repeat: no-repeat; 
     text-align: center;
     padding: 2px;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: 3px solid rgb(133, 49, 49);   
-}
-
-h1{
-    color: rgb(230, 201, 201);
+    border-bottom: 3px solid rgb(133, 49, 49); 
+    color:rgb(230, 201, 201);  
+    position: relative;
     text-shadow: 2px 2px 4px rgb(78, 16, 16);
 }
-
-div.div2{
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 320px;
-    height: 180px;
-    left: 1%;
-    top: 20%;
-    position: sticky;
-    z-index: 2;
-    border: 3px solid rgb(133, 49, 49);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    padding: 15px;
-}
-
-div.div3{
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 220px;
-    height: 80px;
-    right: 1%;
-    position: fixed;
-    border: 3px solid rgb(133, 49, 49);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    padding: 15px;
-}
-
-p.pie{
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    color: rgb(255, 186, 186);
-}
-
-div.texto{
-    margin: 50px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: rgb(54, 17, 17);
-    text-align: justify;
-    background-color: rgba(230, 81, 81, 0.7);
-    padding: 20px;
-    border-radius: 50px;
-    width: 60%;
-    left: 19%;
-    top: 15%;
-    position: absolute;
-    box-shadow: 0px 3px 20px 12px rgba(0, 0, 0, 0.6);
-}
-
-video {
-    display: block;          /* Elimina el comportamiento inline del video para que acepte márgenes */
-    margin: 0 auto;          /* Aplica margen superior/inferior de 0 y margen izquierdo/derecho automático */   
-}
-
-
-
